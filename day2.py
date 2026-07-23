@@ -42,7 +42,6 @@ print(avg)
 
 
 # real world example
-   
 username = input("enter your username: ")   
 password = input("enter your password: ")  
 
