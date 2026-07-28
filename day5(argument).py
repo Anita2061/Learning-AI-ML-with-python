@@ -1,58 +1,58 @@
 #args (positional arguments)
 # (it collect as the value as tuple)
 
-# def add(a,b,c):
-#     return a + b + c
-# print(add(10,20,30))
+def add(a,b,c):
+    return a + b + c
+print(add(10,20,30))
 
 
-# def add(*numbers):
-#     return sum(numbers)
-# print(add(10,20,30))
+def add(*numbers):
+    return sum(numbers)
+print(add(10,20,30))
 
 
-# def fruits(*items):
-#     print (items)
-# fruits("apple", "banana", "orange")
+def fruits(*items):
+    print (items)
+fruits("apple", "banana", "orange")
 
 
 #looping in function
-# def display(*args):
-#     for value in args:
-#         print (value)
+def display(*args):
+    for value in args:
+        print (value)
         
 # display(10,20,30,40,50)    
 
 
 #function to add unlimited numbers
-# def add(*numbers):
-#     total = 0
-#     for num in numbers:
+def add(*numbers):
+    total = 0
+    for num in numbers:
         
-#         total += num
-#     return total   
-# print(add(10,20,30))
+        total += num
+    return total   
+print(add(10,20,30))
 
 
 #real world example
-# def shopping_cart(*items):
-#     print("purchased items are:")
-#     for items in items:
-#         print(items)
+def shopping_cart(*items):
+    print("purchased items are:")
+    for items in items:
+        print(items)
    
   
-# shopping_cart("bags", "dress", "grocery")       
+shopping_cart("bags", "dress", "grocery")       
 
 
 
 #kwargs (keyword argument)
 # it stores values in dictionary
 
-# def student(**kwargs):
-#     print(kwargs["name"])
-#     print(kwargs["age"])
-#     print(kwargs["city"])
-# student(name = "Anita", age = 21, city = "Butwal")    
+def student(**kwargs):
+    print(kwargs["name"])
+    print(kwargs["age"])
+    print(kwargs["city"])
+student(name = "Anita", age = 21, city = "Butwal")    
 
 # output:
 #   Anita
