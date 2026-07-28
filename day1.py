@@ -7,7 +7,6 @@ print(a,b,c,d)
 print(2+3)
 
 
-
 #types of AI
 #RAG 
 #vector database
