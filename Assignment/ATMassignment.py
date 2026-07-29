@@ -28,3 +28,18 @@ if user_pin == pin:
 
 else:
     print("Incorrect PIN. Access denied.")
+    
+    
+# output:
+# Enter your 4-digit PIN: 1234
+# Enter 1 to check balance and 2 to withdraw money: 1
+# Your balance is: 5000        
+
+# Enter your 4-digit PIN: 1234
+# Enter 1 to check balance and 2 to withdraw money: 2
+# Enter the amount to withdraw: 5000
+# Withdrawal successful.
+# Remaining balance is: 0
+
+# Enter your 4-digit PIN: 1223
+# Incorrect PIN. Access denied.
