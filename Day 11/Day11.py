@@ -105,6 +105,7 @@ print(df.isnull().sum())
 # dtype: int64
 
 
+
 df["Gender"] = df["Gender"].fillna(("unknown"))
 print(df.isnull().sum())
 # output:
